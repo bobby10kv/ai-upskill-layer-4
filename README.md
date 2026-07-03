@@ -5,9 +5,9 @@ This folder contains:
 - Layer 4 session notes: `session-notes-layer-4.md`
 - Reference notebook: `session-notes-layer-4.ipynb`
 - Example scripts:
-  - `app/langchain_agent.py` — LangChain `agent.invoke(...)` example
-  - `app/deep_agent.py` — DeepAgents `deep_agent.invoke(...)` example
-  - `app/agent.py` — small toy example showing tool wiring
+  - `scripts/langchain_agent.py` — LangChain `agent.invoke(...)` example
+  - `scripts/deep_agent.py` — DeepAgents `deep_agent.invoke(...)` example
+  - `scripts/agent.py` — small toy example showing tool wiring
 
 ## Setup
 
@@ -40,8 +40,8 @@ LANGSMITH_PROJECT="layer4-agents"
 From the repo root (with `venv` activated):
 
 ```bash
-python app/langchain_agent.py
-python app/deep_agent.py
+python scripts/langchain_agent.py
+python scripts/deep_agent.py
 ```
 
 ## Notes
