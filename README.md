@@ -33,6 +33,8 @@ Optional (for tracing/observability if you use LangSmith):
 LANGSMITH_TRACING="true"
 LANGSMITH_API_KEY="..."
 LANGSMITH_PROJECT="layer4-agents"
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+
 ```
 
 ## Run examples
